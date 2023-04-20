@@ -13,7 +13,7 @@ class PassagemAerea:
         self.hora = input("Digite a hora (hh:mm): ")
         print("{:=^100}".format("Cadastro de passagem realizada com sucesso!"))
         self.mostrar()
-
+# mudança teste
     def mostrar(self):
         print("Dados da sua Passagem: ")
         print(f"Origem: {self.origem}")
