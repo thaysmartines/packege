@@ -9,7 +9,7 @@ class PassagemArea:
         self.hora = input("Digite a hora (hh:mm): ")
         print("Passagem aérea cadastrada com sucesso!")
         
-        
+        # mudança teste 2
     def alterar_preco(self, novo_preco):
         self.preco = novo_preco
     
